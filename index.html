@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
-    <link rel="stylesheet" href="style.css"> <!-- 关联CSS样式 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>个人作品集</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>欢迎来到我的网站</h1>
-    </header>
-    
-    <section>
-        <h2>关于我</h2>
-        <p>你好，我是小豆，这是我的第一个静态网站。</p>
-    </section>
+  <header>
+    <div class="container">
+      <img src="avatar.jpg" alt="我的头像" class="avatar">
+      <h1>你好，我是小豆</h1>
+      <p>这是我的个人作品集，展示我做过的一些项目和成就。</p>
+    </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2025 小豆</p>
-    </footer>
+  <section id="projects" class="container">
+    <h2>我的项目</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="项目1">
+        <h3>项目 1</h3>
+        <p>这是我的第一个项目，展示了如何使用 HTML 和 CSS 构建响应式网站。</p>
+        <a href="https://github.com/Somnus049" target="_blank">查看项目</a>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="项目2">
+        <h3>项目 2</h3>
+        <p>这个项目是我使用 JavaScript 实现的动态交互功能。</p>
+        <a href="https://github.com/Somnus049" target="_blank">查看项目</a>
+      </div>
+      <!-- 添加更多项目 -->
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>联系方式</h2>
+    <p>你可以通过以下方式与我联系：</p>
+    <ul>
+      <li><a href="mailto:youremail@example.com">邮箱</a></li>
+      <li><a href="https://github.com/Somnus049" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 小豆的作品集</p>
+    </div>
+  </footer>
 </body>
 </html>
+
